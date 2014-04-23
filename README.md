@@ -19,8 +19,7 @@ After any change to you Vagrantfile, you should destroy the VM with ```vagrant d
 
 ####Port forwarding
 If you want to forward some ports from your VM to your Host machine, uncomment in the Vagrantfile
-```config.vm.network "forwarded_port", guest: 80, host: 8080``` and replace the guest port and host port with the ones you want to forward.:
-After any change to you Vagrantfile, you should destroy the VM with ```vagrant destroy``` and rebuild it with ```vagrant up```.
+```config.vm.network "forwarded_port", guest: 80, host: 8080``` and replace the guest port and host port with the ones you want to forward. Default forwarding in port 3001. After any change to you Vagrantfile, you should destroy the VM with ```vagrant destroy``` and rebuild it with ```vagrant up```.
 
 ####Setting Up your VM for the first time
 
