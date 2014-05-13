@@ -13,7 +13,9 @@ Before you make use of this project. You need to make sure that:
 ####Mounting folders from your Host OS to your VM
 
 To mount a shared folder with the host OS, uncomment the line in Vagrantfile
-```config.vm.synced_folder "~/Documents/workspace", "/vagrant-data"```
+```
+config.vm.synced_folder "~/Documents/workspace", "/vagrant-data"
+```
 and replace the "~Documents/workspace" with the folder that you whish to mount.
 After any change to you Vagrantfile, you should destroy the VM with ```vagrant destroy``` and rebuild it with ```vagrant up```.
 
