@@ -36,7 +36,7 @@ The virtual box started will contain Docker and Git so that you can clone any do
 
 #### Accessing, Stopping and Restarting your VM
 To ssh into your new VM
-```vagrant shh```
+```vagrant ssh```
 
 To stop your VM but keep your current running state
 ```vagrant suspend```
